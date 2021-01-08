@@ -13,15 +13,15 @@
         "warningColor": "#e43f3f",
         "dangerColor": "#ffffff",
         "mainFont": "Jost",
-        "display1Font": "Jost",
+        "display1Font": "Dosis",
         "display1Size": 4.6,
-        "display2Font": "Jost",
+        "display2Font": "Dosis",
         "display2Size": 3,
-        "display5Font": "Jost",
+        "display5Font": "Dosis",
         "display5Size": 2,
-        "display7Font": "Jost",
+        "display7Font": "Dosis",
         "display7Size": "1.6",
-        "display4Font": "Jost",
+        "display4Font": "Dosis",
         "display4Size": 1.1,
         "isRoundedButtons": true,
         "isGhostButtonBorder": true,
@@ -30,13 +30,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#00b36c",
         "#1f1f1f",
         "#60d391",
         "#23af54",
         "#27a92b",
         "#f7f7f7",
-        "#00b14c",
-        "#59b443"
+        "#00b14c"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,9 +46,14 @@
         "css": "'Jost', sans-serif",
         "name": "Jost",
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Dosis', sans-serif",
+        "name": "Dosis",
+        "url": "https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
       }
     ],
-    "uniqCompNum": 156,
+    "uniqCompNum": 157,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/128x128.png",
@@ -472,7 +477,7 @@
           },
           "_name": "menu2-slt2VGPwxn",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"4.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#f7f7f7\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#8b8b8b\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/bn-removebg-preview-1-80x80.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#features3-45\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            BENEFÍCIOS</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#features19-w\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            COMO FUNCIONA?</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#content4-42\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DEPOIMENTOS</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#content4-3i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">PREÇOS</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"4.9\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#f7f7f7\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#8b8b8b\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                    'navbar-expand-lg':!collapsed,\n                    'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"#\">\n                        <img src=\"@PROJECT_PATH@/assets/images/bn-removebg-preview-1-80x80.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#features3-45\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            BENEFÍCIOS</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#features19-w\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            COMO FUNCIONA?</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#content4-42\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DEPOIMENTOS</a>\n                    </li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"#content4-3i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">PREÇOS</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "slt2VGPwxn",
           "_anchor": "menu2-3w",
           "_PHPplaceholders": [],
@@ -1934,267 +1939,110 @@
         {
           "alias": false,
           "_styles": {
-            "#tabelas": {
-              "background": "#074a07"
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            "#tabelas h2": {
-              "color": "#FFF"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
             },
-            "#tabelas h3": {
-              "font-style": "normal"
-            },
-            "#tabelas h2 b": {
-              "font-weight": "800",
-              "color": "#ffd206"
-            },
-            ".days": {
-              "display": "none !important"
-            },
-            ".hours": {
-              "text-align": "center"
-            },
-            ".minutes": {
-              "text-align": "center"
-            },
-            ".seconds": {
-              "text-align": "center"
-            },
-            "#clockdiv": {
-              "display": "block",
-              "font-weight": "100",
-              "text-align": "center",
-              "font-size": "30px",
+            "img, .item-img": {
               "width": "100%",
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-right": "auto",
-              "margin-top": "30px",
-              "margin-bottom": "50px"
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
             },
-            "#clockdiv > div": {
-              "padding": "0px",
-              "background": "rgba(255, 255, 255, 0)",
-              "display": "inline-block"
+            ".item:focus, span:focus": {
+              "outline": "none"
             },
-            "#clockdiv div > span": {
-              "display": "inline-block",
-              "font-size": "54px",
-              "color": "#FFF",
-              "font-weight": "700",
-              "width": "80px",
-              "line-height": "1em"
-            },
-            ".smalltext": {
-              "font-size": "9px",
-              "color": "#fff",
-              "font-weight": "400",
-              "text-align": "center",
-              "text-transform": "uppercase"
-            },
-            ".doispontos": {
-              "font-size": "30px",
-              "color": "#fff",
-              "font-weight": "500",
-              "vertical-align": "top",
-              "line-height": "2em",
-              "text-align": "center",
-              "margin-right": "-8px"
-            },
-            ".box-precos": {
-              "background": "#fff",
-              "border-radius": "4px",
-              "box-shadow": "0 0 8.91px 0.09px rgba(27, 27, 27, 0.23)",
-              "padding-bottom": "2px",
-              "line-height": "1.4em",
+            ".item": {
               "cursor": "pointer",
-              "transition": "all 0.2s",
-              "width": "90%",
-              "margin": "20px auto"
+              "margin-bottom": "2rem"
             },
-            ".box-precos:hover": {
-              "transform": "scale(1.1)"
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
             },
-            ".box-precos .header": {
-              "display": "block",
-              "background-color": "#f1f1f1",
+            ".item-wrapper": {
               "position": "relative",
-              "border-top-left-radius": "3px",
-              "border-top-right-radius": "3px",
-              "height": "50px"
+              "border-radius": "4px",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 2rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 2rem 2rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
             },
-            ".box-precos .header .porcentagem-desconto": {
-              "position": "absolute",
-              "top": "0",
-              "bottom": "0",
-              "width": "50px",
-              "height": "50px",
-              "background-color": "#25d366",
-              "font-size": "10px",
-              "line-height": "12px",
-              "color": "#fff",
-              "text-align": "left",
-              "font-weight": "700",
-              "padding": "14px 12px",
-              "border-top-left-radius": "3px"
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
             },
-            ".box-precos .header .porcentagem-desconto strong": {
-              "font-size": "14px",
-              "color": "#ffffff"
-            },
-            ".box-precos .header .produto-info": {
-              "width": "100%",
-              "padding": "12px",
-              "text-align": "center"
-            },
-            ".box-precos .header .produto-info strong": {
-              "font-size": "16px",
-              "display": "block",
-              "line-height": "13px",
-              "font-weight": "700",
-              "color": "#074a07",
-              "text-transform": "uppercase"
-            },
-            ".box-precos .header .produto-info small": {
-              "font-size": "13px",
-              "display": "block",
-              "font-style": "normal",
-              "font-weight": "500",
-              "color": "#5e5e5e",
-              "text-transform": "none"
-            },
-            ".box-precos .thumb": {
-              "width": "100%",
-              "overflow": "hidden"
-            },
-            ".box-precos .thumb img": {
-              "width": "100%",
-              "margin": "0 auto"
-            },
-            ".conteudo-produto": {
-              "margin-top": "20px",
-              "width": "100%",
-              "padding": "0 10px"
-            },
-            ".conteudo-produto .titulo-produto": {
-              "display": "block",
-              "text-align": "center",
-              "font-size": "14px",
-              "padding": "0 19px",
-              "color": "#333",
-              "margin-top": "10px"
-            },
-            ".conteudo-produto .precos-produto": {
-              "padding": "0 10px"
-            },
-            ".conteudo-produto .precos-produto span": {
-              "display": "block",
-              "font-size": "14px",
-              "color": "#333333"
-            },
-            ".conteudo-produto .precos-produto span em": {
-              "font-style": "normal",
-              "float": "right"
-            },
-            ".conteudo-produto .precos-produto span em.preco-antigo": {
-              "color": "#e73671",
-              "text-decoration": "line-through"
-            },
-            ".conteudo-produto .parcela": {
-              "padding": "0 10px",
-              "font-size": "12px",
-              "margin-top": "13px",
-              "line-height": "24px"
-            },
-            ".conteudo-produto .parcela span": {
-              "display": "inline-block",
-              "font-weight": "700",
-              "font-size": "16px"
-            },
-            ".conteudo-produto .parcela strong": {
-              "font-size": "12px",
-              "color": "#074a07",
-              "font-weight": "800",
-              "float": "right"
-            },
-            ".conteudo-produto .parcela strong em": {
-              "font-style": "normal",
-              "font-size": "30px",
-              "color": "#074a07",
-              "font-weight": "900"
-            },
-            ".btn-comprar": {
-              "text-align": "center",
-              "height": "49px",
-              "line-height": "48px",
-              "margin-top": "10px",
-              "margin-bottom": "28px",
-              "position": "relative"
-            },
-            ".btn-comprar a": {
-              "display": "block",
-              "overflow": "hidden",
-              "box-sizing": "border-box",
-              "-webkit-transition": "0.5s ease-in-out",
-              "transition": "0.5s ease-in-out",
-              "width": "190px",
-              "height": "50px",
-              "padding": "0",
-              "margin": "0 auto",
-              "line-height": "50px",
-              "z-index": "111",
-              "text-transform": "uppercase",
-              "font-size": "16px",
-              "font-weight": "700",
-              "background-color": "#25d366",
-              "color": "#fff",
-              "border-radius": "3px",
-              "text-align": "center"
-            },
-            ".btn-comprar a:hover, .box-precos.destaque .btn-comprar a:hover": {
-              "color": "#fff",
-              "text-decoration": "none",
-              "background": "#008f00"
-            },
-            ".box-precos.destaque": {
-              "margin-top": "0"
-            },
-            ".box-precos.destaque .conteudo-produto .titulo-produto": {
-              "margin-top": "27px"
-            },
-            ".box-precos.destaque .conteudo-produto .parcela": {
-              "margin-top": "30px"
-            },
-            ".box-precos.destaque .header .porcentagem-desconto, .box-precos.destaque .btn-comprar a": {
-              "background": "#8ec145"
-            },
-            ".box-precos.destaque .header .produto-info strong, .box-precos.destaque .conteudo-produto .parcela strong, .box-precos.destaque .conteudo-produto .parcela strong em": {
-              "color": "#8ec145"
-            },
-            ".frete": {
-              "background-color": "#fefefe",
-              "text-align": "center",
-              "margin": "25px -10px",
-              "color": "#fff",
-              "padding": "10px",
-              "border": "1px solid #eee"
-            },
-            ".frete img": {
-              "width": "26px",
-              "display": "inline-block",
-              "margin-right": "5px"
-            },
-            ".frete p": {
-              "display": "inline-block",
-              "color": "#000",
-              "font-size": "12px",
-              "margin-bottom": "0"
+            ".mbr-section-title": {
+              "color": "#232323"
             }
           },
           "_name": "gallery1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<!-- tabelas -->\n    <section style=\"padding-bottom: 19px; background-color: #00b36c\" id=\"tabelas\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center align-items-center\">                            \n                <!--- KIT COM 2 POTES -->\n                <div class=\"col-lg-4 col-10 pm2\">\n                    <div class=\"box-precos\" onclick=\"javascript:location.href='https://bnemagrecedor.pay.yampi.com.br/r/3HVMSHEXEB'\">\n                        <div class=\"header\">\n                            <div class=\"porcentagem-desconto\"><strong>8%</strong> OFF</div>\n                            <div class=\"produto-info\"><strong>KIT 2</strong><small>Tratamento\n                                    recomendado</small></div>\n                        </div>\n                        <div class=\"thumb\"><img src=\"@PROJECT_PATH@/assets/images/imagem3-626x626.png\" alt></div>\n                        <div class=\"conteudo-produto\"><span class=\"titulo-produto\"><strong>TRATAMENTO PARA 2\n                                    MESES</strong></span>\n                            <div class=\"precos-produto\">\n                                <hr><span>Preço de tabela:<em class=\"preco-antigo\">R$260</em></span><span>Preço com\n                                    desconto:<em>R$239,90</em></span></div>\n                            <div class=\"parcela\"><span>Ou em até 12x de</span><strong>R$<em>20</em></strong></div>\n                            <div class=\"frete\"><img src=\"@PROJECT_PATH@/assets/images/icon-truck-41x21.png\" alt>\n                                <p><b>FRETE GRATIS</b> para todo o Brasil</p>\n                            </div>\n                            <div class=\"btn-comprar\"><a href=\"https://bnemagrecedor.pay.yampi.com.br/r/3HVMSHEXEB\">Comprar\n                                    Agora</a></div>\n                        </div>\n                    </div>\n                </div>\n                <!--- KIT COM 3 POTES -->\n                <div class=\"col-lg-4 col-10 pm1\">\n                    <div class=\"box-precos destaque\" onclick=\"javascript:location.href='https://bnemagrecedor.pay.yampi.com.br/r/FD7CJDH0CH'\">\n                        <div class=\"header\">\n                            <div class=\"porcentagem-desconto\"><strong>13%</strong> OFF</div>\n                            <div class=\"produto-info\"><strong>KIT 3</strong><small>Tratamento\n                                    Avançado</small></div>\n                        </div>\n                        <div class=\"thumb\"><img src=\"@PROJECT_PATH@/assets/images/-600x600.png\" alt></div>\n                        <div class=\"conteudo-produto\"><span class=\"titulo-produto\"><strong>TRATAMENTO PARA 3\n                                    MESES + EBOOK BÔNUS</strong></span>\n                            <div class=\"precos-produto\">\n                                <hr><span>Preço de tabela:<em class=\"preco-antigo\">R$390</em></span><span>Preço com\n                                    desconto:<em>R$339,90</em></span></div>\n                            <div class=\"parcela\"><span>Ou em até 12x de</span><strong>R$<em>33,15</em></strong></div>\n                            <div class=\"frete\"><img src=\"@PROJECT_PATH@/assets/images/icon-truck-41x21.png\" alt>\n                                <p><b>FRETE GRATIS</b> para todo o Brasil</p>\n                            </div>\n                            <div class=\"btn-comprar\"><a href=\"https://bnemagrecedor.pay.yampi.com.br/r/FD7CJDH0CH\">Comprar\n                                    Agora</a></div>\n                        </div>\n                    </div>\n                </div>\n                <!--- KIT COM 1 POTE -->\n                <div class=\"col-lg-4 col-10 pm3\">\n                    <div class=\"box-precos \" onclick=\"javascript:location.href='https://bnemagrecedor.pay.yampi.com.br/r/4CT2H4EZBI'\"> \n                        <div class=\"header\">\n                            <div class=\"porcentagem-desconto\"><strong>0%</strong> OFF</div>\n                            <div class=\"produto-info\"><strong>KIT 1</strong><small>Tratamento\n                                    Básico</small></div>\n                        </div>\n                        <div class=\"thumb\"><img src=\"@PROJECT_PATH@/assets/images/imagem2-626x626.png\" alt></div>\n                        <div class=\"conteudo-produto\"><span class=\"titulo-produto\"><strong>TRATAMENTO PARA 1\n                                    MÊS</strong></span>\n                            <div class=\"precos-produto\">\n                                <hr><span><em class=\"preco-antigo\"></em></span><span>Preço de Tabela:<em>R$129,90</em></span></div>\n                            <div class=\"parcela\"><span>Ou em até 12x de</span><strong>R$<em>12,67</em></strong></div>\n                            <div class=\"frete\"><img src=\"@PROJECT_PATH@/assets/images/icon-truck-41x21.png\" alt>\n                                <p><b>FRETE GRATIS</b> para todo o Brasil</p>\n                            </div>\n                            <div class=\"btn-comprar\"><a href=\"https://bnemagrecedor.pay.yampi.com.br/r/4CT2H4EZBI\">Comprar\n                                    Agora</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </section> <!-- tabelas -->",
-          "_cid": "sh2TPRiWae",
-          "_anchor": "gallery1-f",
+          "_customHTML": "<section class=\"gallery1\" group=\"Sliders & Galleries\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\" selected>3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\">\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#00b36c\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#00b36c\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Gallery</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Gallery Subtitle</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://bnemagrecedor.pay.yampi.com.br/r/3HVMSHEXEB\">\n                        <img src=\"@PROJECT_PATH@/assets/images/123123-1-500x900.png\" alt>\n                        </a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Card Text. You don't have to code to create a site. Select one of available themes in the\n                            Mobirise Site Builder.\n                        </p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                      <a href=\"https://bnemagrecedor.pay.yampi.com.br/r/FD7CJDH0CH\">\n                        <img src=\"@PROJECT_PATH@/assets/images/sem-ttulo-1231-500x900.png\" alt>\n                        </a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Card Text. You don't have to code to create\n                            a site. Select one of available themes in the Mobirise Site Builder.</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://bnemagrecedor.pay.yampi.com.br/r/4CT2H4EZBI\">\n                        <img src=\"@PROJECT_PATH@/assets/images/sem-ttulo-3-500x900.png\" alt>\n                        </a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            <b>Card Title</b>\n                        </h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Card Text. You don't have to code to create\n                            a site. Select one of available themes in the Mobirise Site Builder.</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\">Learn more</a>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "sluskTs9WP",
+          "_anchor": "gallery1-4c",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
