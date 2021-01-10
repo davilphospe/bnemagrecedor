@@ -741,7 +741,6 @@ a {
 }
 .cid-slt2VGPwxn .dropdown-item:hover,
 .cid-slt2VGPwxn .dropdown-item:focus {
-  background: !important;
   color: white !important;
 }
 .cid-slt2VGPwxn .dropdown-item:first-child {
@@ -1411,7 +1410,6 @@ a {
 }
 .cid-sjojerWfjR .card-wrapper {
   border-radius: 4px;
-  background: ;
 }
 @media (min-width: 992px) {
   .cid-sjojerWfjR .card-wrapper {
@@ -1468,7 +1466,7 @@ a {
 }
 .cid-slkRvQEH9S .card-wrapper {
   border-radius: 4px;
-  background: ;
+  
 }
 @media (min-width: 992px) {
   .cid-slkRvQEH9S .card-wrapper {
@@ -1525,7 +1523,7 @@ a {
 }
 .cid-slkRGUa2UH .card-wrapper {
   border-radius: 4px;
-  background: ;
+ 
 }
 @media (min-width: 992px) {
   .cid-slkRGUa2UH .card-wrapper {
@@ -1660,7 +1658,7 @@ a {
 }
 .cid-slu2tgQhP0 .card-wrapper {
   border-radius: 4px;
-  background: ;
+
 }
 @media (min-width: 992px) {
   .cid-slu2tgQhP0 .card-wrapper {
@@ -2383,7 +2381,12 @@ a {
 .cid-sltzislrx4 .bandeiras {
   width: 370px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+}
+@media (max-width: 767px){
+  .logoimagem {
+  width: 320px !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .cid-sltzislrx4 .bandeiras .bandeiras {
